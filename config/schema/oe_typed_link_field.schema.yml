@@ -1,0 +1,13 @@
+field.value.typed_link:
+  type: mapping
+  label: 'Default value'
+  mapping:
+    type:
+      type: string
+      label: 'Type of the link'
+    url:
+      type: string
+      label: 'URL of the link'
+    title:
+      type: label
+      label: 'Title of the link'

@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * The OpenEuropa Typed Link Field module.
+ */
+
+declare(strict_types = 1);
+
+/**
+ * Implements hook_theme().
+ */
+function oe_typed_link_field_theme() {
+  return [
+    'typed_links' => [
+      'variables' => [
+        'items' => [],
+      ],
+    ],
+  ];
+}

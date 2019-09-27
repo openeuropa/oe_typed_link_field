@@ -1,0 +1,10 @@
+name: OpenEuropa Content Typed Link Field
+description: Contains the Typed Link field type.
+package: OpenEuropa
+
+type: module
+core: 8.x
+
+config_devel:
+  install:
+    - field.storage.node.oe_typed_link
